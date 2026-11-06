@@ -1,0 +1,6 @@
+{
+  "name": "prompt-jump",
+  "version": "0.1.0",
+  "description": "Ctrl+Up / Ctrl+Down jump between your own messages in fullscreen and outline the one you are on",
+  "types": "./types/index.d.ts"
+}

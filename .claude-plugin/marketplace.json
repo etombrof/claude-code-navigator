@@ -1,0 +1,5 @@
+{
+  "name": "prompt-jump",
+  "owner": { "name": "etombrof" },
+  "plugins": [{ "name": "prompt-jump", "source": "./" }]
+}
