@@ -1,9 +1,9 @@
 import { expect, mock, test } from 'claude-code/testing'
 
 const PANE = {
-  plugin: 'prompt-jump',
+  plugin: 'navigator',
   component: 'Pane',
-  requestId: 'prompt-jump',
+  requestId: 'navigator',
   surface: 'terminal',
   props: {
     title: 'Your messages',
@@ -20,7 +20,7 @@ const ROW = { origin: { kind: 'composer' }, isExpanded: true } as const
 
 const row = (requestId: string, text: string, onScreen: typeof ON | null) =>
   ({
-    plugin: 'prompt-jump',
+    plugin: 'navigator',
     component: 'UserMessage',
     requestId,
     surface: 'terminal',

@@ -2,15 +2,15 @@ import { atom, read, update } from 'claude-code'
 import type { EngineInterface, Register } from 'claude-code'
 
 // the message Ctrl+Up/Down landed on (null: none, the normal view)
-const selected = atom({ plugin: 'prompt-jump', key: 'selected' } as const, null)
+const selected = atom({ plugin: 'navigator', key: 'selected' } as const, null)
 // the message the side pane's block is on; only the pane reads it, so a write redraws the pane alone
-const here = atom({ plugin: 'prompt-jump', key: 'here' } as const, null)
+const here = atom({ plugin: 'navigator', key: 'here' } as const, null)
 
 // Ctrl+Up/Down (and Alt+Up/Down) are bound globally to these diff-view actions, idle outside
 // the diff view, so a band Button naming them is pressed by those chords from the prompt.
 const UP = 'app:diffFileListUp'
 const DOWN = 'app:diffFileListDown'
-const PANE = 'prompt-jump'
+const PANE = 'navigator'
 const PANE_COLUMNS = 32
 
 // Your messages, oldest first, by row id (the id a UserMessage row renders under).

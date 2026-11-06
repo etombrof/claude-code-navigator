@@ -1,8 +1,8 @@
-# prompt-jump
+# Claude Code Navigator
 
 Jump between your own messages in Claude Code with Ctrl+↑ / Ctrl+↓.
 
-![prompt-jump: Ctrl+Up and Ctrl+Down jump between your messages](assets/prompt-jump.gif)
+![Claude Code Navigator: Ctrl+Up and Ctrl+Down jump between your messages](assets/navigator.gif)
 
 ## Features
 
@@ -13,7 +13,7 @@ Jump between your own messages in Claude Code with Ctrl+↑ / Ctrl+↓.
 ## Install
 
 ```
-/plugin install prompt-jump --marketplace etombrof/prompt-jump
+/plugin install navigator --marketplace etombrof/claude-code-navigator
 ```
 
 ## Requirements

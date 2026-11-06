@@ -1,5 +1,5 @@
 {
-  "name": "prompt-jump",
+  "name": "claude-code-navigator",
   "owner": { "name": "etombrof" },
-  "plugins": [{ "name": "prompt-jump", "source": "./" }]
+  "plugins": [{ "name": "navigator", "source": "./" }]
 }

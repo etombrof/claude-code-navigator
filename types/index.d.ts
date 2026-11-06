@@ -3,7 +3,7 @@ export type MessageId = string | null
 
 declare module 'claude-code' {
   interface PluginState {
-    'prompt-jump': {
+    navigator: {
       selected: MessageId // the message Ctrl+Up/Down landed on; null = the normal view
       here: MessageId // the message the side pane's block is on
     }
